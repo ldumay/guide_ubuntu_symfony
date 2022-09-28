@@ -133,7 +133,9 @@ Get help for a specific command with symfony help COMMAND.
 
 ### 3.2 - Symfony  - Possibilités de création
 
-[Symfony Demo Application](https://github.com/symfony/demo)
+#### 3.2.1 - Possibilités de création
+
+Grâce à de nombreux arguments, il est possible de créer un projet complet ou non avec Symfony CLI.
 
 ```
 symfony new --demo symfony-demo
@@ -144,6 +146,8 @@ symfony new --full symfony-full
 
 symfony new --full --no-git --debug --version=lts symfony-custom
 ```
+
+> *Résultat des tests ci-cessous*
 
 #### 3.2.2 - Tests
 
