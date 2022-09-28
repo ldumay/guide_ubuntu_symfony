@@ -145,6 +145,28 @@ symfony new --full symfony-full
 symfony new --full --no-git --debug --version=lts symfony-custom
 ```
 
+---
+
+![img](_img/symfony_demo.png)
+
+Symfony new **demo**
+
+![img](_img/symfony_webapp.png)
+
+Symfony new **webapp**
+
+![img](_img/symfony_full.png)
+
+Symfony new **full**
+
+![img](_img/symfony_custom.png)
+
+Symfony new **custom** <=> **full + no-git + debug + lts**
+
+---
+
+![img](_img/003.png)
+
 ### 3.3 - Symfony  - Possibilités de création - modèle Book
 
 ```
