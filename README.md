@@ -145,25 +145,25 @@ symfony new --full symfony-full
 symfony new --full --no-git --debug --version=lts symfony-custom
 ```
 
----
+#### 3.2.2 - Tests
+
+#### 3.2.2.1 - ✅ - Symfony new **demo**
 
 ![img](_img/symfony_demo.png)
 
-Symfony new **demo**
+#### 3.2.2.2 - ✅ - Symfony new **webapp**
 
 ![img](_img/symfony_webapp.png)
 
-Symfony new **webapp**
+#### 3.2.2.3 - ❌ - Symfony new **full**
 
 ![img](_img/symfony_full.png)
 
-Symfony new **full**
+#### 3.2.2.4 - ✅ - Symfony new **custom** <=> **full + no-git + debug + lts**
 
 ![img](_img/symfony_custom.png)
 
-Symfony new **custom** <=> **full + no-git + debug + lts**
-
----
+#### 3.2.2.4 - ❌ - Symfony new **<__>**
 
 ![img](_img/003.png)
 
