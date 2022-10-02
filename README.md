@@ -18,20 +18,31 @@ sudo apt install git tree nano zip unzip
 Installation de Composer PHP, Xdebug, OPcache
 
 ```
-sudo apt install php php-json php-ctype php-curl php-mbstring php-xml php-zip php-tokenizer php-tokenizer libpcre3 --no-install-recommends
+sudo apt install libpcre3
 
-sudo apt install php8.1-amqp
-sudo apt install php8.1-apcu
-sudo apt install php8.1-dom
-sudo apt install php8.1-gd
-sudo apt install php8.1-gmp
-sudo apt install php8.1-pdo
-sudo apt install php8.1-pgsql
-sudo apt install php8.1-redis
-sudo apt install php8.1-simplexml
-sudo apt install php8.1-sqlite3
-sudo apt install php8.1-xdebug
-sudo apt install php8.1-xml
+sudo apt install php --no-install-recommends
+
+sudo apt install php-amqp
+sudo apt install php-apcu
+sudo apt install php-bcmath
+sudo apt install php-ctype
+sudo apt install php-curl
+sudo apt install php-dom
+sudo apt install php-gd
+sudo apt install php-gmp
+sudo apt install php-json
+sudo apt install php-mbstring
+sudo apt install php-pdo
+sudo apt install php-pgsql
+sudo apt install php-redis
+sudo apt install php-simplexml
+sudo apt install php-sqlite3
+sudo apt install php-tokenizer
+sudo apt install php-xdebug
+sudo apt install php-xml
+sudo apt install php-zip
+
+#sudo apt install php-openssl
 
 sudo apt install composer
 ```
